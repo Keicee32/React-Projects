@@ -52,3 +52,18 @@ h1 {
 ul {
     margin-left: 30px;
 }
+
+li {
+    font-size: 20px;
+}
+
+li::before {
+    content: "• ";
+    color: #61DAFB;
+    display: inline-block;
+    list-style-type: circle;
+    font-weight: bolder;
+    width: 1em;
+    margin-left: -.99em;
+    margin-bottom: -1em;
+}
