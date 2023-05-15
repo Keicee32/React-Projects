@@ -1,0 +1,14 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    border-bottom: 1px solid blue;
+    text-shadow: aqua;
+}
